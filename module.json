@@ -1,0 +1,39 @@
+{
+  "id": "cg-plus",
+  "title": "Character Gallery+",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url": "https://github.com/Zullock/character-gallery-plus",
+  "manifest": "https://raw.githubusercontent.com/Zullock/character-gallery-plus/main/module.json",
+  "download": "https://github.com/Zullock/character-gallery-plus/releases/download/v1.0.0/module.zip",
+  "changelog": "https://github.com/Zullock/character-gallery-plus/blob/main/CHANGELOG.md",
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "pf2e-tokens-characters",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Zullock",
+      "discord": "Zullock#2883",
+      "flags": {}
+    }
+  ]
+}
